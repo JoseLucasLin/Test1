@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.function.Function;
 
 public class JavaAleatorio{
 public static void main(String[] args) {
@@ -12,8 +13,8 @@ System.out.println(numero);
 		System.out.println("has ganado");
 	}else {
 		System.out.println("intentalo de nuevo");
-		main();
+		
+		}
 	}
 	}
-}
 
